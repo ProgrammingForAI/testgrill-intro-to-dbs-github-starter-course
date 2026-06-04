@@ -80,7 +80,7 @@ class PositionState:
     def _row(self, car):
         r = self.cars.get(car)
         if r is None:
-            r = {"position": None, "laps_back": 0}
+            r = {"position": None, "laps_backy": 0}
             self.cars[car] = r
         return r
 
