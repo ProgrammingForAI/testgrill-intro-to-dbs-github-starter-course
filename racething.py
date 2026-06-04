@@ -30,7 +30,7 @@ from rich.text import Text
 # Configuration
 FEED_HOST = "127.0.0.1"
 FEED_PORT = 11003
-UPDATE_INTERVAL = 0.1   # Seconds between display refreshes (max 10 FPS)
+UPDATE_INTERVAL  =0.2 # Seconds between display refreshes (max 10 FPS)
 RECONNECT_DELAY = 2     # Seconds to wait before reconnecting
 FRESH_S = 20            # A car's data is "fresh" if seen within this many seconds
 
